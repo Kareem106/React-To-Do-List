@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "Ojsj8w5uJJl8cg7SDO7pv",
+      "email": "user@gmail.com",
+      "password": "1234",
+      "token": "s1Oo1ihtT1Y8CUPVmISMx"
+    },
+    {
+      "id": "cIBRgEFzqPrr8JFurVnd4",
+      "email": "user2@gmail.com",
+      "password": "1234",
+      "token": "U3dKZ4kJiKcQxrTEAaw90"
+    },
+    {
+      "id": "UkzQ4yzqoMA4EtTVTEoh6",
+      "email": "user3@gmail.com",
+      "password": "1234",
+      "token": "AMfrNTQdK8Mx72m1W2Fw5"
+    }
+  ]
+}
