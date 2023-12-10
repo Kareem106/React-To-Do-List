@@ -17,6 +17,12 @@
       "email": "user3@gmail.com",
       "password": "1234",
       "token": "AMfrNTQdK8Mx72m1W2Fw5"
+    },
+    {
+      "id": "AwBMKwfcvB0n9mZKXW1be",
+      "email": "user5@gmail.com",
+      "password": "0000",
+      "token": "wbG9nOqYHZxRTLgei-yUF"
     }
   ]
 }

@@ -13,7 +13,7 @@ export const SignInForm = ({changeReg}) => {
     password:false
   })
   const [formData,setFormData]=useState(initialFormData);
-  const logInDataHandler=(formData)=>{
+  const logInDataHandler=()=>{
     const {email,password}=formData;
     const emailPattern=/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
     if(!emailPattern.test(email) && password.length<4){
@@ -30,7 +30,7 @@ export const SignInForm = ({changeReg}) => {
   return (
 <form 
 onSubmit={(e)=>{
-  e.preventDefault(logInDataHandler(formData));
+  e.preventDefault(logInDataHandler());
 }}
 className="max-w-sm mx-auto">
   <div className="mb-5">

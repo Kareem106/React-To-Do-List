@@ -12,7 +12,7 @@ export default function SignUpForm ({changeReg}){
   const [formData,setFormData]=useState(initialFormData);
   const initialErr={email:false,password:false,confirm_password:false};
   const [err,setErr]=useState(initialErr);
-  const signUpDataHandler=(formData)=>{
+  const signUpDataHandler=()=>{
     const {email,password,confirm_password}=formData;
     const emailPattern=/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
     if(!emailPattern.test(email)){
@@ -29,7 +29,7 @@ export default function SignUpForm ({changeReg}){
   return (
 <form 
 onSubmit={(e)=>{
-  e.preventDefault(signUpDataHandler(formData));
+  e.preventDefault(signUpDataHandler());
 }}
 className="max-w-sm mx-auto">
   <div className="mb-5">
